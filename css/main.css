@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	font-family: Arial, Tahoma, sans-serif;
+
+}
+* {
+	box-sizing: border-box;
+}
+
+/*...........ШАПКА...............*/
+.header {
+	height: 887px;
+	background-image: url("../img/header-bg.jpg");
+	background-size: cover;
+
+}
+
+
+
+.header-content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+/*.........NAVIGATION............ */
+.navigation {
+	margin-top: 70px;
+	margin-bottom: 75px;
+}
+.navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+.navigation ul li {
+	/*margin: 0;
+	padding: 0;*/
+	display: inline-block;/* выстраеваем в один ряд елименты списка(меню) */
+	margin-right: 150px;/* ростояние между списками */
+}
+.navigation ul li:last-child {
+	margin-right: 0;
+}/* выделяем последний элимент списка что бы им управлять */
+
+.navigation ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+
+
+}
+
+.navigation ul li a:hover {
+	text-decoration: underline;
+	color: darkblue;
+}
+/*......// NAVIGATION.......... */
+
+
+
+.header-head {
+	width: 420px;
+	color: white;
+
+}
+.header-head h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 52px;
+	font-weight: normal;
+	line-height: 62px;
+	text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+.header-head p {
+	margin-top: 39px;
+	margin-bottom: 0;
+	text-shadow: 0 1px 1px rgb(0, 0, 0);
+	font-size: 14px;
+	line-height: 25px;
+}
+/*.........//ШАПКА................*/
+.content {
+
+
+}
+
+
+
+
+
+
+.footer {
+
+
+
+}
+
+
+
+
+
