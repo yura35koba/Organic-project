@@ -80,13 +80,14 @@ body {
 	font-size: 52px;
 	font-weight: normal;
 	line-height: 62px;
-	text-shadow: 0 1px 1px rgb(0, 0, 0);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+
 }
 .header-head p {
-	margin-top: 39px;
+	margin-top: 25px;
 	margin-bottom: 0;
-	text-shadow: 0 1px 1px rgb(0, 0, 0);
 	font-size: 14px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 	line-height: 25px;
 }
 /*.........//ШАПКА................*/
@@ -111,7 +112,7 @@ body {
 }
 .col-right {
 	float: right;
-	width: 595px;
+	width: 590px;
 }
 .col-right h2 {
 	font-size: 24px;
@@ -173,11 +174,9 @@ body {
 	color: darkblue;
 	text-decoration: underline;
 }
-
-
 .menu {
 	float: left;
-	width: 100px;
+	width: 90px;
 	margin-right: 45px;
 }
 .menu h4 {
@@ -204,6 +203,11 @@ body {
 .menu ul li a:hover {
 	color: darkblue;
 	text-decoration: underline;
+}.left-menu {
+    margin-left: 80px;
+ }
+.right-menu {
+    margin-right: 0;
 }
 /*............//ПОДВАЛ..............*/
 
